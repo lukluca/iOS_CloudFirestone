@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_testCloudFirestoreTestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_testCloudFirestoreTestsVersionString[];
+FOUNDATION_EXPORT double Pods_iOS_CloudFirestoreVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_iOS_CloudFirestoreVersionString[];
 

@@ -1,22 +1,22 @@
 # Uncomment the next line to define a global platform for your project
 platform :ios, '11.4'
 
-target 'testCloudFirestore' do
+target 'iOS_CloudFirestore' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 pod 'Firebase/Core'
 pod 'Firebase/Firestore'
-pod 'FirebaseAuth'
+pod 'Firebase/Auth'
 pod 'Result'
 
   # Pods for testCloudFirestore
 
-  target 'testCloudFirestoreTests' do
+  target 'iOS_CloudFirestoreTests' do
     inherit! :search_paths
     # Pods for testing
   end
 
-  target 'testCloudFirestoreUITests' do
+  target 'iOS_CloudFirestoreUITests' do
     inherit! :search_paths
     # Pods for testing
   end

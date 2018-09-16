@@ -22,8 +22,11 @@
 		43C438A4214ECB9900504B05 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C438A3214ECB9900504B05 /* User.swift */; };
 		43C438A8214ED2C700504B05 /* FireBaseAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C438A7214ED2C700504B05 /* FireBaseAPIManager.swift */; };
 		4D289141E7B9BF8839125492 /* Pods_testCloudFirestore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3711867E48D96B2C4A087CFC /* Pods_testCloudFirestore.framework */; };
+		4F5FF87DBB138F7541F12D75 /* Pods_iOS_CloudFirestoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 067476245127BD7B90493719 /* Pods_iOS_CloudFirestoreTests.framework */; };
 		9CECD223CC7469AE514AF86D /* Pods_testCloudFirestoreUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C598034F9BEE24D57A952629 /* Pods_testCloudFirestoreUITests.framework */; };
+		A71FAF9AECC8BE5937933C8A /* Pods_iOS_CloudFirestoreUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DBD838CC4F82CDE4244142A /* Pods_iOS_CloudFirestoreUITests.framework */; };
 		B3372CB376FE862C31F2FA56 /* Pods_testCloudFirestoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB47B8E9CBC83F140414DED /* Pods_testCloudFirestoreTests.framework */; };
+		D2FE04AA757BA2ECE44D0D7C /* Pods_iOS_CloudFirestore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E7E0899A131691E0C80496E /* Pods_iOS_CloudFirestore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,8 @@
 
 /* Begin PBXFileReference section */
 		044E50871C415E94613BA398 /* Pods-testCloudFirestoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCloudFirestoreTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testCloudFirestoreTests/Pods-testCloudFirestoreTests.debug.xcconfig"; sourceTree = "<group>"; };
+		067476245127BD7B90493719 /* Pods_iOS_CloudFirestoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_CloudFirestoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C8E820CD54669C105EB05C6 /* Pods-iOS_CloudFirestoreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_CloudFirestoreUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_CloudFirestoreUITests/Pods-iOS_CloudFirestoreUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3711867E48D96B2C4A087CFC /* Pods_testCloudFirestore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testCloudFirestore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		433B5B1A214EDC48001C91A5 /* LoginError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginError.swift; sourceTree = "<group>"; };
 		433B5B1C214EE45D001C91A5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -66,11 +71,18 @@
 		43C438A0214EC8F700504B05 /* FirebaseConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseConfig.swift; sourceTree = "<group>"; };
 		43C438A3214ECB9900504B05 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		43C438A7214ED2C700504B05 /* FireBaseAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireBaseAPIManager.swift; sourceTree = "<group>"; };
+		4DBD838CC4F82CDE4244142A /* Pods_iOS_CloudFirestoreUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_CloudFirestoreUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		630036768135770F5C91FB3D /* Pods-iOS_CloudFirestore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_CloudFirestore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_CloudFirestore/Pods-iOS_CloudFirestore.debug.xcconfig"; sourceTree = "<group>"; };
 		6AAD77CECBB3D00A759B1375 /* Pods-testCloudFirestore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCloudFirestore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testCloudFirestore/Pods-testCloudFirestore.debug.xcconfig"; sourceTree = "<group>"; };
+		752C0110877F64A0784DE336 /* Pods-iOS_CloudFirestoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_CloudFirestoreTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_CloudFirestoreTests/Pods-iOS_CloudFirestoreTests.release.xcconfig"; sourceTree = "<group>"; };
 		7BB47B8E9CBC83F140414DED /* Pods_testCloudFirestoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testCloudFirestoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E7E0899A131691E0C80496E /* Pods_iOS_CloudFirestore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_CloudFirestore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B1BBFB4DFA18A877CBA04DA /* Pods-testCloudFirestoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCloudFirestoreTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-testCloudFirestoreTests/Pods-testCloudFirestoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		AD103458384A5618AE91DD33 /* Pods-iOS_CloudFirestoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_CloudFirestoreTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_CloudFirestoreTests/Pods-iOS_CloudFirestoreTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B7BDFF2B8DE4DD72765B176D /* Pods-iOS_CloudFirestore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_CloudFirestore.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_CloudFirestore/Pods-iOS_CloudFirestore.release.xcconfig"; sourceTree = "<group>"; };
 		BC4736ECF7FF9FEF395C37FB /* Pods-testCloudFirestore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCloudFirestore.release.xcconfig"; path = "Pods/Target Support Files/Pods-testCloudFirestore/Pods-testCloudFirestore.release.xcconfig"; sourceTree = "<group>"; };
 		C598034F9BEE24D57A952629 /* Pods_testCloudFirestoreUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testCloudFirestoreUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA83E9D6AD7CB3D8F4803252 /* Pods-iOS_CloudFirestoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_CloudFirestoreUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_CloudFirestoreUITests/Pods-iOS_CloudFirestoreUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E4F1C1A35485D5541A941A35 /* Pods-testCloudFirestoreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCloudFirestoreUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testCloudFirestoreUITests/Pods-testCloudFirestoreUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F955E4192B769C342EFE2182 /* Pods-testCloudFirestoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCloudFirestoreUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-testCloudFirestoreUITests/Pods-testCloudFirestoreUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,6 +93,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D289141E7B9BF8839125492 /* Pods_testCloudFirestore.framework in Frameworks */,
+				D2FE04AA757BA2ECE44D0D7C /* Pods_iOS_CloudFirestore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +102,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3372CB376FE862C31F2FA56 /* Pods_testCloudFirestoreTests.framework in Frameworks */,
+				4F5FF87DBB138F7541F12D75 /* Pods_iOS_CloudFirestoreTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +111,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CECD223CC7469AE514AF86D /* Pods_testCloudFirestoreUITests.framework in Frameworks */,
+				A71FAF9AECC8BE5937933C8A /* Pods_iOS_CloudFirestoreUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +251,12 @@
 				9B1BBFB4DFA18A877CBA04DA /* Pods-testCloudFirestoreTests.release.xcconfig */,
 				E4F1C1A35485D5541A941A35 /* Pods-testCloudFirestoreUITests.debug.xcconfig */,
 				F955E4192B769C342EFE2182 /* Pods-testCloudFirestoreUITests.release.xcconfig */,
+				630036768135770F5C91FB3D /* Pods-iOS_CloudFirestore.debug.xcconfig */,
+				B7BDFF2B8DE4DD72765B176D /* Pods-iOS_CloudFirestore.release.xcconfig */,
+				AD103458384A5618AE91DD33 /* Pods-iOS_CloudFirestoreTests.debug.xcconfig */,
+				752C0110877F64A0784DE336 /* Pods-iOS_CloudFirestoreTests.release.xcconfig */,
+				1C8E820CD54669C105EB05C6 /* Pods-iOS_CloudFirestoreUITests.debug.xcconfig */,
+				CA83E9D6AD7CB3D8F4803252 /* Pods-iOS_CloudFirestoreUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -246,6 +267,9 @@
 				3711867E48D96B2C4A087CFC /* Pods_testCloudFirestore.framework */,
 				7BB47B8E9CBC83F140414DED /* Pods_testCloudFirestoreTests.framework */,
 				C598034F9BEE24D57A952629 /* Pods_testCloudFirestoreUITests.framework */,
+				7E7E0899A131691E0C80496E /* Pods_iOS_CloudFirestore.framework */,
+				067476245127BD7B90493719 /* Pods_iOS_CloudFirestoreTests.framework */,
+				4DBD838CC4F82CDE4244142A /* Pods_iOS_CloudFirestoreUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -393,7 +417,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-testCloudFirestore-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-iOS_CloudFirestore-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -406,7 +430,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-testCloudFirestore/Pods-testCloudFirestore-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-iOS_CloudFirestore/Pods-iOS_CloudFirestore-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
@@ -437,7 +461,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testCloudFirestore/Pods-testCloudFirestore-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS_CloudFirestore/Pods-iOS_CloudFirestore-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B8C23461F311596A5C2A8C4F /* [CP] Check Pods Manifest.lock */ = {
@@ -451,7 +475,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-testCloudFirestoreUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-iOS_CloudFirestoreUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -469,7 +493,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-testCloudFirestoreTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-iOS_CloudFirestoreTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -661,16 +685,13 @@
 		};
 		43C4388E214EBB7700504B05 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6AAD77CECBB3D00A759B1375 /* Pods-testCloudFirestore.debug.xcconfig */;
+			baseConfigurationReference = 630036768135770F5C91FB3D /* Pods-iOS_CloudFirestore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 77TZG23LJ2;
 				INFOPLIST_FILE = "$(SRCROOT)/iOS_CloudFirestore/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tagliabue.ioscloudfirestore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -680,16 +701,13 @@
 		};
 		43C4388F214EBB7700504B05 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC4736ECF7FF9FEF395C37FB /* Pods-testCloudFirestore.release.xcconfig */;
+			baseConfigurationReference = B7BDFF2B8DE4DD72765B176D /* Pods-iOS_CloudFirestore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 77TZG23LJ2;
 				INFOPLIST_FILE = "$(SRCROOT)/iOS_CloudFirestore/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tagliabue.ioscloudfirestore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -699,18 +717,14 @@
 		};
 		43C43891214EBB7700504B05 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 044E50871C415E94613BA398 /* Pods-testCloudFirestoreTests.debug.xcconfig */;
+			baseConfigurationReference = AD103458384A5618AE91DD33 /* Pods-iOS_CloudFirestoreTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 77TZG23LJ2;
 				INFOPLIST_FILE = testCloudFirestoreTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tagliabue.testCloudFirestoreTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -721,18 +735,14 @@
 		};
 		43C43892214EBB7700504B05 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B1BBFB4DFA18A877CBA04DA /* Pods-testCloudFirestoreTests.release.xcconfig */;
+			baseConfigurationReference = 752C0110877F64A0784DE336 /* Pods-iOS_CloudFirestoreTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 77TZG23LJ2;
 				INFOPLIST_FILE = testCloudFirestoreTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tagliabue.testCloudFirestoreTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -743,17 +753,13 @@
 		};
 		43C43894214EBB7700504B05 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4F1C1A35485D5541A941A35 /* Pods-testCloudFirestoreUITests.debug.xcconfig */;
+			baseConfigurationReference = 1C8E820CD54669C105EB05C6 /* Pods-iOS_CloudFirestoreUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 77TZG23LJ2;
 				INFOPLIST_FILE = testCloudFirestoreUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tagliabue.testCloudFirestoreUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -764,17 +770,13 @@
 		};
 		43C43895214EBB7700504B05 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F955E4192B769C342EFE2182 /* Pods-testCloudFirestoreUITests.release.xcconfig */;
+			baseConfigurationReference = CA83E9D6AD7CB3D8F4803252 /* Pods-iOS_CloudFirestoreUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 77TZG23LJ2;
 				INFOPLIST_FILE = testCloudFirestoreUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tagliabue.testCloudFirestoreUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

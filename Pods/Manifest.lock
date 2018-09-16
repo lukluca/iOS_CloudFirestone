@@ -5,6 +5,9 @@ PODS:
   - BoringSSL/Implementation (10.0.6):
     - BoringSSL/Interface (= 10.0.6)
   - BoringSSL/Interface (10.0.6)
+  - Firebase/Auth (5.8.0):
+    - Firebase/CoreOnly
+    - FirebaseAuth (= 5.0.4)
   - Firebase/Core (5.8.0):
     - Firebase/CoreOnly
     - FirebaseAnalytics (= 5.1.2)
@@ -112,9 +115,9 @@ PODS:
   - Result (4.0.0)
 
 DEPENDENCIES:
+  - Firebase/Auth
   - Firebase/Core
   - Firebase/Firestore
-  - FirebaseAuth
   - Result
 
 SPEC REPOS:
@@ -162,6 +165,6 @@ SPEC CHECKSUMS:
   Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
   Result: 7645bb3f50c2ce726dd0ff2fa7b6f42bbe6c3713
 
-PODFILE CHECKSUM: a4ba08d02733630d1d6fdd061a397905a582f3b9
+PODFILE CHECKSUM: 4b0c47ed6327cbfd7851e4539fd3f8b59d270822
 
 COCOAPODS: 1.5.3

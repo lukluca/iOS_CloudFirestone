@@ -1,0 +1,6 @@
+framework module Pods_iOS_CloudFirestoreUITests {
+  umbrella header "Pods-iOS_CloudFirestoreUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
