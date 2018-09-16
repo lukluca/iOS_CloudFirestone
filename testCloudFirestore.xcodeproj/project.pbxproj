@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43C43869214EBB7500504B05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C43868214EBB7500504B05 /* AppDelegate.swift */; };
+		43C4386B214EBB7500504B05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C4386A214EBB7500504B05 /* ViewController.swift */; };
+		43C4386E214EBB7500504B05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43C4386C214EBB7500504B05 /* Main.storyboard */; };
+		43C43870214EBB7700504B05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43C4386F214EBB7700504B05 /* Assets.xcassets */; };
+		43C43873214EBB7700504B05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43C43871214EBB7700504B05 /* LaunchScreen.storyboard */; };
+		43C4387E214EBB7700504B05 /* testCloudFirestoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C4387D214EBB7700504B05 /* testCloudFirestoreTests.swift */; };
+		43C43889214EBB7700504B05 /* testCloudFirestoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C43888214EBB7700504B05 /* testCloudFirestoreUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43C4387A214EBB7700504B05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43C4385D214EBB7500504B05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43C43864214EBB7500504B05;
+			remoteInfo = testCloudFirestore;
+		};
+		43C43885214EBB7700504B05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43C4385D214EBB7500504B05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43C43864214EBB7500504B05;
+			remoteInfo = testCloudFirestore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43C43865214EBB7500504B05 /* testCloudFirestore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testCloudFirestore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43C43868214EBB7500504B05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43C4386A214EBB7500504B05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		43C4386D214EBB7500504B05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43C4386F214EBB7700504B05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43C43872214EBB7700504B05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43C43874214EBB7700504B05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43C43879214EBB7700504B05 /* testCloudFirestoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testCloudFirestoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43C4387D214EBB7700504B05 /* testCloudFirestoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testCloudFirestoreTests.swift; sourceTree = "<group>"; };
+		43C4387F214EBB7700504B05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43C43884214EBB7700504B05 /* testCloudFirestoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testCloudFirestoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43C43888214EBB7700504B05 /* testCloudFirestoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testCloudFirestoreUITests.swift; sourceTree = "<group>"; };
+		43C4388A214EBB7700504B05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43C43862214EBB7500504B05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43C43876214EBB7700504B05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43C43881214EBB7700504B05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43C4385C214EBB7500504B05 = {
+			isa = PBXGroup;
+			children = (
+				43C43867214EBB7500504B05 /* testCloudFirestore */,
+				43C4387C214EBB7700504B05 /* testCloudFirestoreTests */,
+				43C43887214EBB7700504B05 /* testCloudFirestoreUITests */,
+				43C43866214EBB7500504B05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43C43866214EBB7500504B05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43C43865214EBB7500504B05 /* testCloudFirestore.app */,
+				43C43879214EBB7700504B05 /* testCloudFirestoreTests.xctest */,
+				43C43884214EBB7700504B05 /* testCloudFirestoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43C43867214EBB7500504B05 /* testCloudFirestore */ = {
+			isa = PBXGroup;
+			children = (
+				43C43868214EBB7500504B05 /* AppDelegate.swift */,
+				43C4386A214EBB7500504B05 /* ViewController.swift */,
+				43C4386C214EBB7500504B05 /* Main.storyboard */,
+				43C4386F214EBB7700504B05 /* Assets.xcassets */,
+				43C43871214EBB7700504B05 /* LaunchScreen.storyboard */,
+				43C43874214EBB7700504B05 /* Info.plist */,
+			);
+			path = testCloudFirestore;
+			sourceTree = "<group>";
+		};
+		43C4387C214EBB7700504B05 /* testCloudFirestoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				43C4387D214EBB7700504B05 /* testCloudFirestoreTests.swift */,
+				43C4387F214EBB7700504B05 /* Info.plist */,
+			);
+			path = testCloudFirestoreTests;
+			sourceTree = "<group>";
+		};
+		43C43887214EBB7700504B05 /* testCloudFirestoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				43C43888214EBB7700504B05 /* testCloudFirestoreUITests.swift */,
+				43C4388A214EBB7700504B05 /* Info.plist */,
+			);
+			path = testCloudFirestoreUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43C43864214EBB7500504B05 /* testCloudFirestore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43C4388D214EBB7700504B05 /* Build configuration list for PBXNativeTarget "testCloudFirestore" */;
+			buildPhases = (
+				43C43861214EBB7500504B05 /* Sources */,
+				43C43862214EBB7500504B05 /* Frameworks */,
+				43C43863214EBB7500504B05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testCloudFirestore;
+			productName = testCloudFirestore;
+			productReference = 43C43865214EBB7500504B05 /* testCloudFirestore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43C43878214EBB7700504B05 /* testCloudFirestoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43C43890214EBB7700504B05 /* Build configuration list for PBXNativeTarget "testCloudFirestoreTests" */;
+			buildPhases = (
+				43C43875214EBB7700504B05 /* Sources */,
+				43C43876214EBB7700504B05 /* Frameworks */,
+				43C43877214EBB7700504B05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43C4387B214EBB7700504B05 /* PBXTargetDependency */,
+			);
+			name = testCloudFirestoreTests;
+			productName = testCloudFirestoreTests;
+			productReference = 43C43879214EBB7700504B05 /* testCloudFirestoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		43C43883214EBB7700504B05 /* testCloudFirestoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43C43893214EBB7700504B05 /* Build configuration list for PBXNativeTarget "testCloudFirestoreUITests" */;
+			buildPhases = (
+				43C43880214EBB7700504B05 /* Sources */,
+				43C43881214EBB7700504B05 /* Frameworks */,
+				43C43882214EBB7700504B05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43C43886214EBB7700504B05 /* PBXTargetDependency */,
+			);
+			name = testCloudFirestoreUITests;
+			productName = testCloudFirestoreUITests;
+			productReference = 43C43884214EBB7700504B05 /* testCloudFirestoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43C4385D214EBB7500504B05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Tagliabue, L.";
+				TargetAttributes = {
+					43C43864214EBB7500504B05 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					43C43878214EBB7700504B05 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 43C43864214EBB7500504B05;
+					};
+					43C43883214EBB7700504B05 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 43C43864214EBB7500504B05;
+					};
+				};
+			};
+			buildConfigurationList = 43C43860214EBB7500504B05 /* Build configuration list for PBXProject "testCloudFirestore" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43C4385C214EBB7500504B05;
+			productRefGroup = 43C43866214EBB7500504B05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43C43864214EBB7500504B05 /* testCloudFirestore */,
+				43C43878214EBB7700504B05 /* testCloudFirestoreTests */,
+				43C43883214EBB7700504B05 /* testCloudFirestoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43C43863214EBB7500504B05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43C43873214EBB7700504B05 /* LaunchScreen.storyboard in Resources */,
+				43C43870214EBB7700504B05 /* Assets.xcassets in Resources */,
+				43C4386E214EBB7500504B05 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43C43877214EBB7700504B05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43C43882214EBB7700504B05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43C43861214EBB7500504B05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43C4386B214EBB7500504B05 /* ViewController.swift in Sources */,
+				43C43869214EBB7500504B05 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43C43875214EBB7700504B05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43C4387E214EBB7700504B05 /* testCloudFirestoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43C43880214EBB7700504B05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43C43889214EBB7700504B05 /* testCloudFirestoreUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43C4387B214EBB7700504B05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43C43864214EBB7500504B05 /* testCloudFirestore */;
+			targetProxy = 43C4387A214EBB7700504B05 /* PBXContainerItemProxy */;
+		};
+		43C43886214EBB7700504B05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43C43864214EBB7500504B05 /* testCloudFirestore */;
+			targetProxy = 43C43885214EBB7700504B05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43C4386C214EBB7500504B05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43C4386D214EBB7500504B05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43C43871214EBB7700504B05 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43C43872214EBB7700504B05 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43C4388B214EBB7700504B05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43C4388C214EBB7700504B05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43C4388E214EBB7700504B05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77TZG23LJ2;
+				INFOPLIST_FILE = testCloudFirestore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tagliabue.testCloudFirestore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43C4388F214EBB7700504B05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77TZG23LJ2;
+				INFOPLIST_FILE = testCloudFirestore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tagliabue.testCloudFirestore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		43C43891214EBB7700504B05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77TZG23LJ2;
+				INFOPLIST_FILE = testCloudFirestoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tagliabue.testCloudFirestoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testCloudFirestore.app/testCloudFirestore";
+			};
+			name = Debug;
+		};
+		43C43892214EBB7700504B05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77TZG23LJ2;
+				INFOPLIST_FILE = testCloudFirestoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tagliabue.testCloudFirestoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testCloudFirestore.app/testCloudFirestore";
+			};
+			name = Release;
+		};
+		43C43894214EBB7700504B05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77TZG23LJ2;
+				INFOPLIST_FILE = testCloudFirestoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tagliabue.testCloudFirestoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = testCloudFirestore;
+			};
+			name = Debug;
+		};
+		43C43895214EBB7700504B05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77TZG23LJ2;
+				INFOPLIST_FILE = testCloudFirestoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tagliabue.testCloudFirestoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = testCloudFirestore;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43C43860214EBB7500504B05 /* Build configuration list for PBXProject "testCloudFirestore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43C4388B214EBB7700504B05 /* Debug */,
+				43C4388C214EBB7700504B05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43C4388D214EBB7700504B05 /* Build configuration list for PBXNativeTarget "testCloudFirestore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43C4388E214EBB7700504B05 /* Debug */,
+				43C4388F214EBB7700504B05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43C43890214EBB7700504B05 /* Build configuration list for PBXNativeTarget "testCloudFirestoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43C43891214EBB7700504B05 /* Debug */,
+				43C43892214EBB7700504B05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43C43893214EBB7700504B05 /* Build configuration list for PBXNativeTarget "testCloudFirestoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43C43894214EBB7700504B05 /* Debug */,
+				43C43895214EBB7700504B05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43C4385D214EBB7500504B05 /* Project object */;
+}
