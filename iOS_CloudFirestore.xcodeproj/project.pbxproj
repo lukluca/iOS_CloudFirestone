@@ -48,17 +48,17 @@
 		3711867E48D96B2C4A087CFC /* Pods_testCloudFirestore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testCloudFirestore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		433B5B1A214EDC48001C91A5 /* LoginError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginError.swift; sourceTree = "<group>"; };
 		433B5B1C214EE45D001C91A5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		43C43865214EBB7500504B05 /* testCloudFirestore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testCloudFirestore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43C43865214EBB7500504B05 /* iOS_CloudFirestore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_CloudFirestore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43C43868214EBB7500504B05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43C4386A214EBB7500504B05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		43C4386D214EBB7500504B05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		43C4386F214EBB7700504B05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43C43872214EBB7700504B05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43C43874214EBB7700504B05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		43C43879214EBB7700504B05 /* testCloudFirestoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testCloudFirestoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43C43879214EBB7700504B05 /* iOS_CloudFirestoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_CloudFirestoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43C4387D214EBB7700504B05 /* testCloudFirestoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testCloudFirestoreTests.swift; sourceTree = "<group>"; };
 		43C4387F214EBB7700504B05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		43C43884214EBB7700504B05 /* testCloudFirestoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testCloudFirestoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43C43884214EBB7700504B05 /* iOS_CloudFirestoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_CloudFirestoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43C43888214EBB7700504B05 /* testCloudFirestoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testCloudFirestoreUITests.swift; sourceTree = "<group>"; };
 		43C4388A214EBB7700504B05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43C4389B214EC70200504B05 /* LoginProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProtocols.swift; sourceTree = "<group>"; };
@@ -106,9 +106,9 @@
 		43C4385C214EBB7500504B05 = {
 			isa = PBXGroup;
 			children = (
-				43C43867214EBB7500504B05 /* testCloudFirestore */,
-				43C4387C214EBB7700504B05 /* testCloudFirestoreTests */,
-				43C43887214EBB7700504B05 /* testCloudFirestoreUITests */,
+				43C43867214EBB7500504B05 /* iOS_CloudFirestore */,
+				43C4387C214EBB7700504B05 /* iOS_CloudFirestoreTests */,
+				43C43887214EBB7700504B05 /* iOS_CloudFirestoreUITests */,
 				43C43866214EBB7500504B05 /* Products */,
 				6086EAFF968DC304FA2F5C95 /* Pods */,
 				AF93DD2A95298E583E74184E /* Frameworks */,
@@ -118,14 +118,14 @@
 		43C43866214EBB7500504B05 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				43C43865214EBB7500504B05 /* testCloudFirestore.app */,
-				43C43879214EBB7700504B05 /* testCloudFirestoreTests.xctest */,
-				43C43884214EBB7700504B05 /* testCloudFirestoreUITests.xctest */,
+				43C43865214EBB7500504B05 /* iOS_CloudFirestore.app */,
+				43C43879214EBB7700504B05 /* iOS_CloudFirestoreTests.xctest */,
+				43C43884214EBB7700504B05 /* iOS_CloudFirestoreUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		43C43867214EBB7500504B05 /* testCloudFirestore */ = {
+		43C43867214EBB7500504B05 /* iOS_CloudFirestore */ = {
 			isa = PBXGroup;
 			children = (
 				433B5B1C214EE45D001C91A5 /* GoogleService-Info.plist */,
@@ -137,25 +137,25 @@
 				43C43871214EBB7700504B05 /* LaunchScreen.storyboard */,
 				43C43874214EBB7700504B05 /* Info.plist */,
 			);
-			path = testCloudFirestore;
+			path = iOS_CloudFirestore;
 			sourceTree = "<group>";
 		};
-		43C4387C214EBB7700504B05 /* testCloudFirestoreTests */ = {
+		43C4387C214EBB7700504B05 /* iOS_CloudFirestoreTests */ = {
 			isa = PBXGroup;
 			children = (
 				43C4387D214EBB7700504B05 /* testCloudFirestoreTests.swift */,
 				43C4387F214EBB7700504B05 /* Info.plist */,
 			);
-			path = testCloudFirestoreTests;
+			path = iOS_CloudFirestoreTests;
 			sourceTree = "<group>";
 		};
-		43C43887214EBB7700504B05 /* testCloudFirestoreUITests */ = {
+		43C43887214EBB7700504B05 /* iOS_CloudFirestoreUITests */ = {
 			isa = PBXGroup;
 			children = (
 				43C43888214EBB7700504B05 /* testCloudFirestoreUITests.swift */,
 				43C4388A214EBB7700504B05 /* Info.plist */,
 			);
-			path = testCloudFirestoreUITests;
+			path = iOS_CloudFirestoreUITests;
 			sourceTree = "<group>";
 		};
 		43C43897214EC67C00504B05 /* Infrastructure */ = {
@@ -253,9 +253,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		43C43864214EBB7500504B05 /* testCloudFirestore */ = {
+		43C43864214EBB7500504B05 /* iOS_CloudFirestore */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 43C4388D214EBB7700504B05 /* Build configuration list for PBXNativeTarget "testCloudFirestore" */;
+			buildConfigurationList = 43C4388D214EBB7700504B05 /* Build configuration list for PBXNativeTarget "iOS_CloudFirestore" */;
 			buildPhases = (
 				0A64CE4500F582F59ACA44C3 /* [CP] Check Pods Manifest.lock */,
 				43C43861214EBB7500504B05 /* Sources */,
@@ -267,14 +267,14 @@
 			);
 			dependencies = (
 			);
-			name = testCloudFirestore;
+			name = iOS_CloudFirestore;
 			productName = testCloudFirestore;
-			productReference = 43C43865214EBB7500504B05 /* testCloudFirestore.app */;
+			productReference = 43C43865214EBB7500504B05 /* iOS_CloudFirestore.app */;
 			productType = "com.apple.product-type.application";
 		};
-		43C43878214EBB7700504B05 /* testCloudFirestoreTests */ = {
+		43C43878214EBB7700504B05 /* iOS_CloudFirestoreTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 43C43890214EBB7700504B05 /* Build configuration list for PBXNativeTarget "testCloudFirestoreTests" */;
+			buildConfigurationList = 43C43890214EBB7700504B05 /* Build configuration list for PBXNativeTarget "iOS_CloudFirestoreTests" */;
 			buildPhases = (
 				BF398CC59E07C802D7B3028F /* [CP] Check Pods Manifest.lock */,
 				43C43875214EBB7700504B05 /* Sources */,
@@ -286,14 +286,14 @@
 			dependencies = (
 				43C4387B214EBB7700504B05 /* PBXTargetDependency */,
 			);
-			name = testCloudFirestoreTests;
+			name = iOS_CloudFirestoreTests;
 			productName = testCloudFirestoreTests;
-			productReference = 43C43879214EBB7700504B05 /* testCloudFirestoreTests.xctest */;
+			productReference = 43C43879214EBB7700504B05 /* iOS_CloudFirestoreTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		43C43883214EBB7700504B05 /* testCloudFirestoreUITests */ = {
+		43C43883214EBB7700504B05 /* iOS_CloudFirestoreUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 43C43893214EBB7700504B05 /* Build configuration list for PBXNativeTarget "testCloudFirestoreUITests" */;
+			buildConfigurationList = 43C43893214EBB7700504B05 /* Build configuration list for PBXNativeTarget "iOS_CloudFirestoreUITests" */;
 			buildPhases = (
 				B8C23461F311596A5C2A8C4F /* [CP] Check Pods Manifest.lock */,
 				43C43880214EBB7700504B05 /* Sources */,
@@ -305,9 +305,9 @@
 			dependencies = (
 				43C43886214EBB7700504B05 /* PBXTargetDependency */,
 			);
-			name = testCloudFirestoreUITests;
+			name = iOS_CloudFirestoreUITests;
 			productName = testCloudFirestoreUITests;
-			productReference = 43C43884214EBB7700504B05 /* testCloudFirestoreUITests.xctest */;
+			productReference = 43C43884214EBB7700504B05 /* iOS_CloudFirestoreUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -333,7 +333,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 43C43860214EBB7500504B05 /* Build configuration list for PBXProject "testCloudFirestore" */;
+			buildConfigurationList = 43C43860214EBB7500504B05 /* Build configuration list for PBXProject "iOS_CloudFirestore" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -346,9 +346,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				43C43864214EBB7500504B05 /* testCloudFirestore */,
-				43C43878214EBB7700504B05 /* testCloudFirestoreTests */,
-				43C43883214EBB7700504B05 /* testCloudFirestoreUITests */,
+				43C43864214EBB7500504B05 /* iOS_CloudFirestore */,
+				43C43878214EBB7700504B05 /* iOS_CloudFirestoreTests */,
+				43C43883214EBB7700504B05 /* iOS_CloudFirestoreUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -515,12 +515,12 @@
 /* Begin PBXTargetDependency section */
 		43C4387B214EBB7700504B05 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 43C43864214EBB7500504B05 /* testCloudFirestore */;
+			target = 43C43864214EBB7500504B05 /* iOS_CloudFirestore */;
 			targetProxy = 43C4387A214EBB7700504B05 /* PBXContainerItemProxy */;
 		};
 		43C43886214EBB7700504B05 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 43C43864214EBB7500504B05 /* testCloudFirestore */;
+			target = 43C43864214EBB7500504B05 /* iOS_CloudFirestore */;
 			targetProxy = 43C43885214EBB7700504B05 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -666,12 +666,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 77TZG23LJ2;
-				INFOPLIST_FILE = testCloudFirestore/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/iOS_CloudFirestore/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tagliabue.testCloudFirestore;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tagliabue.ioscloudfirestore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -685,12 +685,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 77TZG23LJ2;
-				INFOPLIST_FILE = testCloudFirestore/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/iOS_CloudFirestore/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tagliabue.testCloudFirestore;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tagliabue.ioscloudfirestore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -715,7 +715,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testCloudFirestore.app/testCloudFirestore";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS_CloudFirestore.app/iOS_CloudFirestore";
 			};
 			name = Debug;
 		};
@@ -737,7 +737,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testCloudFirestore.app/testCloudFirestore";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS_CloudFirestore.app/iOS_CloudFirestore";
 			};
 			name = Release;
 		};
@@ -786,7 +786,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		43C43860214EBB7500504B05 /* Build configuration list for PBXProject "testCloudFirestore" */ = {
+		43C43860214EBB7500504B05 /* Build configuration list for PBXProject "iOS_CloudFirestore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				43C4388B214EBB7700504B05 /* Debug */,
@@ -795,7 +795,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		43C4388D214EBB7700504B05 /* Build configuration list for PBXNativeTarget "testCloudFirestore" */ = {
+		43C4388D214EBB7700504B05 /* Build configuration list for PBXNativeTarget "iOS_CloudFirestore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				43C4388E214EBB7700504B05 /* Debug */,
@@ -804,7 +804,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		43C43890214EBB7700504B05 /* Build configuration list for PBXNativeTarget "testCloudFirestoreTests" */ = {
+		43C43890214EBB7700504B05 /* Build configuration list for PBXNativeTarget "iOS_CloudFirestoreTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				43C43891214EBB7700504B05 /* Debug */,
@@ -813,7 +813,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		43C43893214EBB7700504B05 /* Build configuration list for PBXNativeTarget "testCloudFirestoreUITests" */ = {
+		43C43893214EBB7700504B05 /* Build configuration list for PBXNativeTarget "iOS_CloudFirestoreUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				43C43894214EBB7700504B05 /* Debug */,
