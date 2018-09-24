@@ -13,6 +13,16 @@ class FireBaseAPIManager: LoginAPI {
     
     static func login(email: String, password: String, completion: @escaping (Result<UserProtocol, LoginError>) -> Void) {
         
+        guard !email.isEmpty else {
+            completion(Result(error: LoginError.emptyEmail))
+            return
+        }
+        
+        guard !password.isEmpty else {
+            completion(Result(error: LoginError.emptyPassword))
+            return
+        }
+        
         Auth.auth().signIn(withEmail: email, password: password) { (value, error) in
             
             if let err = error {
@@ -26,6 +36,8 @@ class FireBaseAPIManager: LoginAPI {
                     loginError = .emailNotFound
                 case AuthErrorCode.wrongPassword.rawValue:
                     loginError = .wrongPassword
+                case AuthErrorCode.invalidEmail.rawValue:
+                    loginError = .emailBadFormat
                 default:
                     loginError = .generic
                 }

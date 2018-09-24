@@ -6,12 +6,11 @@
 //  Copyright © 2018 Tagliabue, L. All rights reserved.
 //
 
-import Foundation
-
 enum LoginError: Error {
+    case emptyEmail
+    case emptyPassword
+    case emailBadFormat
     case emailNotFound
     case wrongPassword
     case generic
 }
-
-

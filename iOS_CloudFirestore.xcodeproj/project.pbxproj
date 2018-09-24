@@ -9,8 +9,9 @@
 /* Begin PBXBuildFile section */
 		433B5B1B214EDC48001C91A5 /* LoginError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433B5B1A214EDC48001C91A5 /* LoginError.swift */; };
 		433B5B1D214EE45D001C91A5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 433B5B1C214EE45D001C91A5 /* GoogleService-Info.plist */; };
+		435ED4702159860900222ABA /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435ED46F2159860900222ABA /* LoginButton.swift */; };
 		43C43869214EBB7500504B05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C43868214EBB7500504B05 /* AppDelegate.swift */; };
-		43C4386B214EBB7500504B05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C4386A214EBB7500504B05 /* ViewController.swift */; };
+		43C4386B214EBB7500504B05 /* AthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C4386A214EBB7500504B05 /* AthenticationViewController.swift */; };
 		43C4386E214EBB7500504B05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43C4386C214EBB7500504B05 /* Main.storyboard */; };
 		43C43870214EBB7700504B05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43C4386F214EBB7700504B05 /* Assets.xcassets */; };
 		43C43873214EBB7700504B05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43C43871214EBB7700504B05 /* LaunchScreen.storyboard */; };
@@ -53,9 +54,10 @@
 		3711867E48D96B2C4A087CFC /* Pods_testCloudFirestore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testCloudFirestore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		433B5B1A214EDC48001C91A5 /* LoginError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginError.swift; sourceTree = "<group>"; };
 		433B5B1C214EE45D001C91A5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		435ED46F2159860900222ABA /* LoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
 		43C43865214EBB7500504B05 /* iOS_CloudFirestore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_CloudFirestore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43C43868214EBB7500504B05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		43C4386A214EBB7500504B05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		43C4386A214EBB7500504B05 /* AthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthenticationViewController.swift; sourceTree = "<group>"; };
 		43C4386D214EBB7500504B05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		43C4386F214EBB7700504B05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43C43872214EBB7700504B05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -118,6 +120,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		435ED46C215985BA00222ABA /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				435ED46D215985C100222ABA /* Authentication */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		435ED46D215985C100222ABA /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				435ED46E215985F600222ABA /* Buttons */,
+				43C4386A214EBB7500504B05 /* AthenticationViewController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		435ED46E215985F600222ABA /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				435ED46F2159860900222ABA /* LoginButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
 		43C4385C214EBB7500504B05 = {
 			isa = PBXGroup;
 			children = (
@@ -143,10 +170,10 @@
 		43C43867214EBB7500504B05 /* iOS_CloudFirestore */ = {
 			isa = PBXGroup;
 			children = (
+				435ED46C215985BA00222ABA /* Sections */,
 				433B5B1C214EE45D001C91A5 /* GoogleService-Info.plist */,
 				43C43897214EC67C00504B05 /* Infrastructure */,
 				43C43868214EBB7500504B05 /* AppDelegate.swift */,
-				43C4386A214EBB7500504B05 /* ViewController.swift */,
 				43C4386C214EBB7500504B05 /* Main.storyboard */,
 				43C4386F214EBB7700504B05 /* Assets.xcassets */,
 				43C43871214EBB7700504B05 /* LaunchScreen.storyboard */,
@@ -508,7 +535,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				43C4389C214EC70200504B05 /* LoginProtocols.swift in Sources */,
-				43C4386B214EBB7500504B05 /* ViewController.swift in Sources */,
+				435ED4702159860900222ABA /* LoginButton.swift in Sources */,
+				43C4386B214EBB7500504B05 /* AthenticationViewController.swift in Sources */,
 				43C438A8214ED2C700504B05 /* FireBaseAPIManager.swift in Sources */,
 				43C438A4214ECB9900504B05 /* User.swift in Sources */,
 				43C43869214EBB7500504B05 /* AppDelegate.swift in Sources */,
@@ -691,7 +719,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 77TZG23LJ2;
 				INFOPLIST_FILE = "$(SRCROOT)/iOS_CloudFirestore/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tagliabue.ioscloudfirestore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -707,7 +738,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 77TZG23LJ2;
 				INFOPLIST_FILE = "$(SRCROOT)/iOS_CloudFirestore/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tagliabue.ioscloudfirestore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -724,7 +758,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 77TZG23LJ2;
 				INFOPLIST_FILE = testCloudFirestoreTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tagliabue.testCloudFirestoreTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -742,7 +780,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 77TZG23LJ2;
 				INFOPLIST_FILE = testCloudFirestoreTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tagliabue.testCloudFirestoreTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -759,7 +801,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 77TZG23LJ2;
 				INFOPLIST_FILE = testCloudFirestoreUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tagliabue.testCloudFirestoreUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -776,7 +822,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 77TZG23LJ2;
 				INFOPLIST_FILE = testCloudFirestoreUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tagliabue.testCloudFirestoreUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
