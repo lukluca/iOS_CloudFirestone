@@ -15,7 +15,7 @@ class LoginButton: UIButton {
     
     var credentials: Credentials = (email: "", password: "")
     
-    var LoginAPIManager: LoginAPI.Type? {
+    var loginAPI: LoginAPI.Type? {
         didSet {
             self.addTarget(self, action: #selector(touchUpInside), for: .touchUpInside)
         }

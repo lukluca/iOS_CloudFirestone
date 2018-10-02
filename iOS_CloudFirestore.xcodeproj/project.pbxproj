@@ -11,17 +11,19 @@
 		433B5B1D214EE45D001C91A5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 433B5B1C214EE45D001C91A5 /* GoogleService-Info.plist */; };
 		435ED4702159860900222ABA /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435ED46F2159860900222ABA /* LoginButton.swift */; };
 		43C43869214EBB7500504B05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C43868214EBB7500504B05 /* AppDelegate.swift */; };
-		43C4386B214EBB7500504B05 /* AthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C4386A214EBB7500504B05 /* AthenticationViewController.swift */; };
+		43C4386B214EBB7500504B05 /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C4386A214EBB7500504B05 /* AuthenticationViewController.swift */; };
 		43C4386E214EBB7500504B05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43C4386C214EBB7500504B05 /* Main.storyboard */; };
 		43C43870214EBB7700504B05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43C4386F214EBB7700504B05 /* Assets.xcassets */; };
 		43C43873214EBB7700504B05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43C43871214EBB7700504B05 /* LaunchScreen.storyboard */; };
 		43C4387E214EBB7700504B05 /* testCloudFirestoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C4387D214EBB7700504B05 /* testCloudFirestoreTests.swift */; };
 		43C43889214EBB7700504B05 /* testCloudFirestoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C43888214EBB7700504B05 /* testCloudFirestoreUITests.swift */; };
-		43C4389C214EC70200504B05 /* LoginProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C4389B214EC70200504B05 /* LoginProtocols.swift */; };
+		43C4389C214EC70200504B05 /* LoginProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C4389B214EC70200504B05 /* LoginProtocol.swift */; };
 		43C4389E214EC71400504B05 /* NewUserProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C4389D214EC71400504B05 /* NewUserProtocols.swift */; };
 		43C438A1214EC8F700504B05 /* FirebaseConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C438A0214EC8F700504B05 /* FirebaseConfig.swift */; };
 		43C438A4214ECB9900504B05 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C438A3214ECB9900504B05 /* User.swift */; };
 		43C438A8214ED2C700504B05 /* FireBaseAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C438A7214ED2C700504B05 /* FireBaseAPIManager.swift */; };
+		43CF0242216364C50006E43C /* AuthenticationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CF0241216364C50006E43C /* AuthenticationProtocol.swift */; };
+		43CF02442163660E0006E43C /* NetworkProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CF02432163660E0006E43C /* NetworkProtocol.swift */; };
 		4D289141E7B9BF8839125492 /* Pods_testCloudFirestore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3711867E48D96B2C4A087CFC /* Pods_testCloudFirestore.framework */; };
 		4F5FF87DBB138F7541F12D75 /* Pods_iOS_CloudFirestoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 067476245127BD7B90493719 /* Pods_iOS_CloudFirestoreTests.framework */; };
 		9CECD223CC7469AE514AF86D /* Pods_testCloudFirestoreUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C598034F9BEE24D57A952629 /* Pods_testCloudFirestoreUITests.framework */; };
@@ -57,7 +59,7 @@
 		435ED46F2159860900222ABA /* LoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
 		43C43865214EBB7500504B05 /* iOS_CloudFirestore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_CloudFirestore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43C43868214EBB7500504B05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		43C4386A214EBB7500504B05 /* AthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthenticationViewController.swift; sourceTree = "<group>"; };
+		43C4386A214EBB7500504B05 /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
 		43C4386D214EBB7500504B05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		43C4386F214EBB7700504B05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43C43872214EBB7700504B05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -68,11 +70,13 @@
 		43C43884214EBB7700504B05 /* iOS_CloudFirestoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_CloudFirestoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43C43888214EBB7700504B05 /* testCloudFirestoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testCloudFirestoreUITests.swift; sourceTree = "<group>"; };
 		43C4388A214EBB7700504B05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		43C4389B214EC70200504B05 /* LoginProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProtocols.swift; sourceTree = "<group>"; };
+		43C4389B214EC70200504B05 /* LoginProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProtocol.swift; sourceTree = "<group>"; };
 		43C4389D214EC71400504B05 /* NewUserProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserProtocols.swift; sourceTree = "<group>"; };
 		43C438A0214EC8F700504B05 /* FirebaseConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseConfig.swift; sourceTree = "<group>"; };
 		43C438A3214ECB9900504B05 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		43C438A7214ED2C700504B05 /* FireBaseAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireBaseAPIManager.swift; sourceTree = "<group>"; };
+		43CF0241216364C50006E43C /* AuthenticationProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationProtocol.swift; sourceTree = "<group>"; };
+		43CF02432163660E0006E43C /* NetworkProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProtocol.swift; sourceTree = "<group>"; };
 		4DBD838CC4F82CDE4244142A /* Pods_iOS_CloudFirestoreUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_CloudFirestoreUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		630036768135770F5C91FB3D /* Pods-iOS_CloudFirestore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_CloudFirestore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_CloudFirestore/Pods-iOS_CloudFirestore.debug.xcconfig"; sourceTree = "<group>"; };
 		6AAD77CECBB3D00A759B1375 /* Pods-testCloudFirestore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCloudFirestore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testCloudFirestore/Pods-testCloudFirestore.debug.xcconfig"; sourceTree = "<group>"; };
@@ -132,7 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				435ED46E215985F600222ABA /* Buttons */,
-				43C4386A214EBB7500504B05 /* AthenticationViewController.swift */,
+				43C4386A214EBB7500504B05 /* AuthenticationViewController.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -170,9 +174,9 @@
 		43C43867214EBB7500504B05 /* iOS_CloudFirestore */ = {
 			isa = PBXGroup;
 			children = (
+				43C43897214EC67C00504B05 /* Infrastructure */,
 				435ED46C215985BA00222ABA /* Sections */,
 				433B5B1C214EE45D001C91A5 /* GoogleService-Info.plist */,
-				43C43897214EC67C00504B05 /* Infrastructure */,
 				43C43868214EBB7500504B05 /* AppDelegate.swift */,
 				43C4386C214EBB7500504B05 /* Main.storyboard */,
 				43C4386F214EBB7700504B05 /* Assets.xcassets */,
@@ -213,8 +217,9 @@
 		43C43898214EC6A100504B05 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				43CF02402163648C0006E43C /* Authentication */,
 				43C4389A214EC6BF00504B05 /* NewUser */,
-				43C43899214EC6B100504B05 /* Login */,
+				43CF02432163660E0006E43C /* NetworkProtocol.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -222,7 +227,7 @@
 		43C43899214EC6B100504B05 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				43C4389B214EC70200504B05 /* LoginProtocols.swift */,
+				43C4389B214EC70200504B05 /* LoginProtocol.swift */,
 				433B5B1A214EDC48001C91A5 /* LoginError.swift */,
 			);
 			path = Login;
@@ -267,6 +272,15 @@
 				43C438A7214ED2C700504B05 /* FireBaseAPIManager.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		43CF02402163648C0006E43C /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				43C43899214EC6B100504B05 /* Login */,
+				43CF0241216364C50006E43C /* AuthenticationProtocol.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 		6086EAFF968DC304FA2F5C95 /* Pods */ = {
@@ -534,13 +548,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43C4389C214EC70200504B05 /* LoginProtocols.swift in Sources */,
+				43C4389C214EC70200504B05 /* LoginProtocol.swift in Sources */,
+				43CF0242216364C50006E43C /* AuthenticationProtocol.swift in Sources */,
 				435ED4702159860900222ABA /* LoginButton.swift in Sources */,
-				43C4386B214EBB7500504B05 /* AthenticationViewController.swift in Sources */,
+				43C4386B214EBB7500504B05 /* AuthenticationViewController.swift in Sources */,
 				43C438A8214ED2C700504B05 /* FireBaseAPIManager.swift in Sources */,
 				43C438A4214ECB9900504B05 /* User.swift in Sources */,
 				43C43869214EBB7500504B05 /* AppDelegate.swift in Sources */,
 				43C438A1214EC8F700504B05 /* FirebaseConfig.swift in Sources */,
+				43CF02442163660E0006E43C /* NetworkProtocol.swift in Sources */,
 				433B5B1B214EDC48001C91A5 /* LoginError.swift in Sources */,
 				43C4389E214EC71400504B05 /* NewUserProtocols.swift in Sources */,
 			);

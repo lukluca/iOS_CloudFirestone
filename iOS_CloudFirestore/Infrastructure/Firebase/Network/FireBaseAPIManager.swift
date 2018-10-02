@@ -9,7 +9,7 @@
 import FirebaseAuth
 import Result
 
-class FireBaseAPIManager: LoginAPI {
+class FireBaseAPIManager: NetworkManager {
     
     static func login(email: String, password: String, completion: @escaping (Result<UserProtocol, LoginError>) -> Void) {
         

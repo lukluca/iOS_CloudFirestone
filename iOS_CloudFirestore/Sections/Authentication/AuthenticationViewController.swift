@@ -1,5 +1,5 @@
 //
-//  AthenticationViewController.swift
+//  AuthenticationViewController.swift
 //  testCloudFirestore
 //
 //  Created by Tagliabue, L. on 16/09/2018.
@@ -8,16 +8,16 @@
 
 import UIKit
 
-class AthenticationViewController: UIViewController {
+class AuthenticationViewController: UIViewController {
 
     @IBOutlet weak var loginButton: LoginButton!
     
-    let loginManager: LoginAPI.Type = FireBaseAPIManager.self
-    
+    let authenticationAPI: AuthenticationAPI? = (UIApplication.shared.delegate as? AppDelegate)?.networkManager
+
     override func viewDidLoad() {
         super.viewDidLoad()
-    
-        loginButton.LoginAPIManager = loginManager
+        
+        loginButton.loginAPI = authenticationAPI
         
         loginButton.credentials = (email: "cippalippa@test.com", password: "Qwerty123")
     }
