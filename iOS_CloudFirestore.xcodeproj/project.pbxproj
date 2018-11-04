@@ -10,13 +10,21 @@
 		433B5B1B214EDC48001C91A5 /* LoginError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433B5B1A214EDC48001C91A5 /* LoginError.swift */; };
 		433B5B1D214EE45D001C91A5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 433B5B1C214EE45D001C91A5 /* GoogleService-Info.plist */; };
 		435ED4702159860900222ABA /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435ED46F2159860900222ABA /* LoginButton.swift */; };
+		43C25F90218CE79800A1FB9E /* ConverterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C25F8F218CE79800A1FB9E /* ConverterProtocol.swift */; };
+		43C25F92218CE80D00A1FB9E /* UserConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C25F91218CE80D00A1FB9E /* UserConverter.swift */; };
+		43C25F94218DFC8E00A1FB9E /* NewUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C25F93218DFC8E00A1FB9E /* NewUserViewController.swift */; };
+		43C25F98218DFDCC00A1FB9E /* RoundBorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C25F97218DFDCC00A1FB9E /* RoundBorderedButton.swift */; };
+		43C25F9A218DFE8500A1FB9E /* NewUserButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C25F99218DFE8500A1FB9E /* NewUserButton.swift */; };
+		43C25F9C218E01C900A1FB9E /* RoundTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C25F9B218E01C900A1FB9E /* RoundTextField.swift */; };
+		43C25FA0218E023A00A1FB9E /* PasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C25F9F218E023A00A1FB9E /* PasswordTextField.swift */; };
+		43C25FA2218E026100A1FB9E /* UsernameTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C25FA1218E026100A1FB9E /* UsernameTextField.swift */; };
 		43C43869214EBB7500504B05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C43868214EBB7500504B05 /* AppDelegate.swift */; };
 		43C4386B214EBB7500504B05 /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C4386A214EBB7500504B05 /* AuthenticationViewController.swift */; };
 		43C4386E214EBB7500504B05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43C4386C214EBB7500504B05 /* Main.storyboard */; };
 		43C43870214EBB7700504B05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43C4386F214EBB7700504B05 /* Assets.xcassets */; };
 		43C43873214EBB7700504B05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43C43871214EBB7700504B05 /* LaunchScreen.storyboard */; };
-		43C4387E214EBB7700504B05 /* testCloudFirestoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C4387D214EBB7700504B05 /* testCloudFirestoreTests.swift */; };
-		43C43889214EBB7700504B05 /* testCloudFirestoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C43888214EBB7700504B05 /* testCloudFirestoreUITests.swift */; };
+		43C4387E214EBB7700504B05 /* iOS_CloudFirestoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C4387D214EBB7700504B05 /* iOS_CloudFirestoreTests.swift */; };
+		43C43889214EBB7700504B05 /* iOS_CloudFirestoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C43888214EBB7700504B05 /* iOS_CloudFirestoreUITests.swift */; };
 		43C4389C214EC70200504B05 /* LoginProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C4389B214EC70200504B05 /* LoginProtocol.swift */; };
 		43C4389E214EC71400504B05 /* NewUserProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C4389D214EC71400504B05 /* NewUserProtocols.swift */; };
 		43C438A1214EC8F700504B05 /* FirebaseConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C438A0214EC8F700504B05 /* FirebaseConfig.swift */; };
@@ -24,11 +32,8 @@
 		43C438A8214ED2C700504B05 /* FireBaseAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C438A7214ED2C700504B05 /* FireBaseAPIManager.swift */; };
 		43CF0242216364C50006E43C /* AuthenticationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CF0241216364C50006E43C /* AuthenticationProtocol.swift */; };
 		43CF02442163660E0006E43C /* NetworkProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CF02432163660E0006E43C /* NetworkProtocol.swift */; };
-		4D289141E7B9BF8839125492 /* Pods_testCloudFirestore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3711867E48D96B2C4A087CFC /* Pods_testCloudFirestore.framework */; };
 		4F5FF87DBB138F7541F12D75 /* Pods_iOS_CloudFirestoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 067476245127BD7B90493719 /* Pods_iOS_CloudFirestoreTests.framework */; };
-		9CECD223CC7469AE514AF86D /* Pods_testCloudFirestoreUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C598034F9BEE24D57A952629 /* Pods_testCloudFirestoreUITests.framework */; };
 		A71FAF9AECC8BE5937933C8A /* Pods_iOS_CloudFirestoreUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DBD838CC4F82CDE4244142A /* Pods_iOS_CloudFirestoreUITests.framework */; };
-		B3372CB376FE862C31F2FA56 /* Pods_testCloudFirestoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB47B8E9CBC83F140414DED /* Pods_testCloudFirestoreTests.framework */; };
 		D2FE04AA757BA2ECE44D0D7C /* Pods_iOS_CloudFirestore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E7E0899A131691E0C80496E /* Pods_iOS_CloudFirestore.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,13 +55,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		044E50871C415E94613BA398 /* Pods-testCloudFirestoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCloudFirestoreTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testCloudFirestoreTests/Pods-testCloudFirestoreTests.debug.xcconfig"; sourceTree = "<group>"; };
 		067476245127BD7B90493719 /* Pods_iOS_CloudFirestoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_CloudFirestoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C8E820CD54669C105EB05C6 /* Pods-iOS_CloudFirestoreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_CloudFirestoreUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_CloudFirestoreUITests/Pods-iOS_CloudFirestoreUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		3711867E48D96B2C4A087CFC /* Pods_testCloudFirestore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testCloudFirestore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		433B5B1A214EDC48001C91A5 /* LoginError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginError.swift; sourceTree = "<group>"; };
 		433B5B1C214EE45D001C91A5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		435ED46F2159860900222ABA /* LoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
+		43C25F8F218CE79800A1FB9E /* ConverterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterProtocol.swift; sourceTree = "<group>"; };
+		43C25F91218CE80D00A1FB9E /* UserConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserConverter.swift; sourceTree = "<group>"; };
+		43C25F93218DFC8E00A1FB9E /* NewUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserViewController.swift; sourceTree = "<group>"; };
+		43C25F97218DFDCC00A1FB9E /* RoundBorderedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundBorderedButton.swift; sourceTree = "<group>"; };
+		43C25F99218DFE8500A1FB9E /* NewUserButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserButton.swift; sourceTree = "<group>"; };
+		43C25F9B218E01C900A1FB9E /* RoundTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundTextField.swift; sourceTree = "<group>"; };
+		43C25F9F218E023A00A1FB9E /* PasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextField.swift; sourceTree = "<group>"; };
+		43C25FA1218E026100A1FB9E /* UsernameTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameTextField.swift; sourceTree = "<group>"; };
 		43C43865214EBB7500504B05 /* iOS_CloudFirestore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_CloudFirestore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43C43868214EBB7500504B05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43C4386A214EBB7500504B05 /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
@@ -65,10 +76,10 @@
 		43C43872214EBB7700504B05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43C43874214EBB7700504B05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43C43879214EBB7700504B05 /* iOS_CloudFirestoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_CloudFirestoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		43C4387D214EBB7700504B05 /* testCloudFirestoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testCloudFirestoreTests.swift; sourceTree = "<group>"; };
+		43C4387D214EBB7700504B05 /* iOS_CloudFirestoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_CloudFirestoreTests.swift; sourceTree = "<group>"; };
 		43C4387F214EBB7700504B05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43C43884214EBB7700504B05 /* iOS_CloudFirestoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_CloudFirestoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		43C43888214EBB7700504B05 /* testCloudFirestoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testCloudFirestoreUITests.swift; sourceTree = "<group>"; };
+		43C43888214EBB7700504B05 /* iOS_CloudFirestoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_CloudFirestoreUITests.swift; sourceTree = "<group>"; };
 		43C4388A214EBB7700504B05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43C4389B214EC70200504B05 /* LoginProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProtocol.swift; sourceTree = "<group>"; };
 		43C4389D214EC71400504B05 /* NewUserProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserProtocols.swift; sourceTree = "<group>"; };
@@ -79,18 +90,11 @@
 		43CF02432163660E0006E43C /* NetworkProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProtocol.swift; sourceTree = "<group>"; };
 		4DBD838CC4F82CDE4244142A /* Pods_iOS_CloudFirestoreUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_CloudFirestoreUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		630036768135770F5C91FB3D /* Pods-iOS_CloudFirestore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_CloudFirestore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_CloudFirestore/Pods-iOS_CloudFirestore.debug.xcconfig"; sourceTree = "<group>"; };
-		6AAD77CECBB3D00A759B1375 /* Pods-testCloudFirestore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCloudFirestore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testCloudFirestore/Pods-testCloudFirestore.debug.xcconfig"; sourceTree = "<group>"; };
 		752C0110877F64A0784DE336 /* Pods-iOS_CloudFirestoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_CloudFirestoreTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_CloudFirestoreTests/Pods-iOS_CloudFirestoreTests.release.xcconfig"; sourceTree = "<group>"; };
-		7BB47B8E9CBC83F140414DED /* Pods_testCloudFirestoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testCloudFirestoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E7E0899A131691E0C80496E /* Pods_iOS_CloudFirestore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_CloudFirestore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B1BBFB4DFA18A877CBA04DA /* Pods-testCloudFirestoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCloudFirestoreTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-testCloudFirestoreTests/Pods-testCloudFirestoreTests.release.xcconfig"; sourceTree = "<group>"; };
 		AD103458384A5618AE91DD33 /* Pods-iOS_CloudFirestoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_CloudFirestoreTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_CloudFirestoreTests/Pods-iOS_CloudFirestoreTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B7BDFF2B8DE4DD72765B176D /* Pods-iOS_CloudFirestore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_CloudFirestore.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_CloudFirestore/Pods-iOS_CloudFirestore.release.xcconfig"; sourceTree = "<group>"; };
-		BC4736ECF7FF9FEF395C37FB /* Pods-testCloudFirestore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCloudFirestore.release.xcconfig"; path = "Pods/Target Support Files/Pods-testCloudFirestore/Pods-testCloudFirestore.release.xcconfig"; sourceTree = "<group>"; };
-		C598034F9BEE24D57A952629 /* Pods_testCloudFirestoreUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testCloudFirestoreUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA83E9D6AD7CB3D8F4803252 /* Pods-iOS_CloudFirestoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_CloudFirestoreUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_CloudFirestoreUITests/Pods-iOS_CloudFirestoreUITests.release.xcconfig"; sourceTree = "<group>"; };
-		E4F1C1A35485D5541A941A35 /* Pods-testCloudFirestoreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCloudFirestoreUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testCloudFirestoreUITests/Pods-testCloudFirestoreUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		F955E4192B769C342EFE2182 /* Pods-testCloudFirestoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCloudFirestoreUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-testCloudFirestoreUITests/Pods-testCloudFirestoreUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +102,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D289141E7B9BF8839125492 /* Pods_testCloudFirestore.framework in Frameworks */,
 				D2FE04AA757BA2ECE44D0D7C /* Pods_iOS_CloudFirestore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -107,7 +110,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3372CB376FE862C31F2FA56 /* Pods_testCloudFirestoreTests.framework in Frameworks */,
 				4F5FF87DBB138F7541F12D75 /* Pods_iOS_CloudFirestoreTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -116,7 +118,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CECD223CC7469AE514AF86D /* Pods_testCloudFirestoreUITests.framework in Frameworks */,
 				A71FAF9AECC8BE5937933C8A /* Pods_iOS_CloudFirestoreUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -127,6 +128,7 @@
 		435ED46C215985BA00222ABA /* Sections */ = {
 			isa = PBXGroup;
 			children = (
+				43C25F95218DFD9F00A1FB9E /* Base */,
 				435ED46D215985C100222ABA /* Authentication */,
 			);
 			path = Sections;
@@ -135,8 +137,10 @@
 		435ED46D215985C100222ABA /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				43C25F9E218E022100A1FB9E /* TextFields */,
 				435ED46E215985F600222ABA /* Buttons */,
 				43C4386A214EBB7500504B05 /* AuthenticationViewController.swift */,
+				43C25F93218DFC8E00A1FB9E /* NewUserViewController.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -145,8 +149,52 @@
 			isa = PBXGroup;
 			children = (
 				435ED46F2159860900222ABA /* LoginButton.swift */,
+				43C25F99218DFE8500A1FB9E /* NewUserButton.swift */,
 			);
 			path = Buttons;
+			sourceTree = "<group>";
+		};
+		43C25F8E218CE76F00A1FB9E /* Converter */ = {
+			isa = PBXGroup;
+			children = (
+				43C25F8F218CE79800A1FB9E /* ConverterProtocol.swift */,
+				43C25F91218CE80D00A1FB9E /* UserConverter.swift */,
+			);
+			path = Converter;
+			sourceTree = "<group>";
+		};
+		43C25F95218DFD9F00A1FB9E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				43C25FA3218E030B00A1FB9E /* TextFields */,
+				43C25F96218DFDA900A1FB9E /* Buttons */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		43C25F96218DFDA900A1FB9E /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				43C25F97218DFDCC00A1FB9E /* RoundBorderedButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		43C25F9E218E022100A1FB9E /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				43C25F9F218E023A00A1FB9E /* PasswordTextField.swift */,
+				43C25FA1218E026100A1FB9E /* UsernameTextField.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		43C25FA3218E030B00A1FB9E /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				43C25F9B218E01C900A1FB9E /* RoundTextField.swift */,
+			);
+			path = TextFields;
 			sourceTree = "<group>";
 		};
 		43C4385C214EBB7500504B05 = {
@@ -189,7 +237,7 @@
 		43C4387C214EBB7700504B05 /* iOS_CloudFirestoreTests */ = {
 			isa = PBXGroup;
 			children = (
-				43C4387D214EBB7700504B05 /* testCloudFirestoreTests.swift */,
+				43C4387D214EBB7700504B05 /* iOS_CloudFirestoreTests.swift */,
 				43C4387F214EBB7700504B05 /* Info.plist */,
 			);
 			path = iOS_CloudFirestoreTests;
@@ -198,7 +246,7 @@
 		43C43887214EBB7700504B05 /* iOS_CloudFirestoreUITests */ = {
 			isa = PBXGroup;
 			children = (
-				43C43888214EBB7700504B05 /* testCloudFirestoreUITests.swift */,
+				43C43888214EBB7700504B05 /* iOS_CloudFirestoreUITests.swift */,
 				43C4388A214EBB7700504B05 /* Info.plist */,
 			);
 			path = iOS_CloudFirestoreUITests;
@@ -244,6 +292,7 @@
 		43C4389F214EC8B400504B05 /* Firebase */ = {
 			isa = PBXGroup;
 			children = (
+				43C25F8E218CE76F00A1FB9E /* Converter */,
 				43C438A6214ED29A00504B05 /* Network */,
 				43C438A5214ED26500504B05 /* Config */,
 			);
@@ -286,12 +335,6 @@
 		6086EAFF968DC304FA2F5C95 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6AAD77CECBB3D00A759B1375 /* Pods-testCloudFirestore.debug.xcconfig */,
-				BC4736ECF7FF9FEF395C37FB /* Pods-testCloudFirestore.release.xcconfig */,
-				044E50871C415E94613BA398 /* Pods-testCloudFirestoreTests.debug.xcconfig */,
-				9B1BBFB4DFA18A877CBA04DA /* Pods-testCloudFirestoreTests.release.xcconfig */,
-				E4F1C1A35485D5541A941A35 /* Pods-testCloudFirestoreUITests.debug.xcconfig */,
-				F955E4192B769C342EFE2182 /* Pods-testCloudFirestoreUITests.release.xcconfig */,
 				630036768135770F5C91FB3D /* Pods-iOS_CloudFirestore.debug.xcconfig */,
 				B7BDFF2B8DE4DD72765B176D /* Pods-iOS_CloudFirestore.release.xcconfig */,
 				AD103458384A5618AE91DD33 /* Pods-iOS_CloudFirestoreTests.debug.xcconfig */,
@@ -305,9 +348,6 @@
 		AF93DD2A95298E583E74184E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3711867E48D96B2C4A087CFC /* Pods_testCloudFirestore.framework */,
-				7BB47B8E9CBC83F140414DED /* Pods_testCloudFirestoreTests.framework */,
-				C598034F9BEE24D57A952629 /* Pods_testCloudFirestoreUITests.framework */,
 				7E7E0899A131691E0C80496E /* Pods_iOS_CloudFirestore.framework */,
 				067476245127BD7B90493719 /* Pods_iOS_CloudFirestoreTests.framework */,
 				4DBD838CC4F82CDE4244142A /* Pods_iOS_CloudFirestoreUITests.framework */,
@@ -548,17 +588,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43C25F90218CE79800A1FB9E /* ConverterProtocol.swift in Sources */,
 				43C4389C214EC70200504B05 /* LoginProtocol.swift in Sources */,
+				43C25FA0218E023A00A1FB9E /* PasswordTextField.swift in Sources */,
 				43CF0242216364C50006E43C /* AuthenticationProtocol.swift in Sources */,
+				43C25F9A218DFE8500A1FB9E /* NewUserButton.swift in Sources */,
 				435ED4702159860900222ABA /* LoginButton.swift in Sources */,
 				43C4386B214EBB7500504B05 /* AuthenticationViewController.swift in Sources */,
 				43C438A8214ED2C700504B05 /* FireBaseAPIManager.swift in Sources */,
+				43C25F94218DFC8E00A1FB9E /* NewUserViewController.swift in Sources */,
+				43C25F9C218E01C900A1FB9E /* RoundTextField.swift in Sources */,
 				43C438A4214ECB9900504B05 /* User.swift in Sources */,
 				43C43869214EBB7500504B05 /* AppDelegate.swift in Sources */,
 				43C438A1214EC8F700504B05 /* FirebaseConfig.swift in Sources */,
+				43C25F98218DFDCC00A1FB9E /* RoundBorderedButton.swift in Sources */,
+				43C25FA2218E026100A1FB9E /* UsernameTextField.swift in Sources */,
 				43CF02442163660E0006E43C /* NetworkProtocol.swift in Sources */,
 				433B5B1B214EDC48001C91A5 /* LoginError.swift in Sources */,
 				43C4389E214EC71400504B05 /* NewUserProtocols.swift in Sources */,
+				43C25F92218CE80D00A1FB9E /* UserConverter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -566,7 +614,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43C4387E214EBB7700504B05 /* testCloudFirestoreTests.swift in Sources */,
+				43C4387E214EBB7700504B05 /* iOS_CloudFirestoreTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -574,7 +622,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43C43889214EBB7700504B05 /* testCloudFirestoreUITests.swift in Sources */,
+				43C43889214EBB7700504B05 /* iOS_CloudFirestoreUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -773,13 +821,13 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 77TZG23LJ2;
-				INFOPLIST_FILE = testCloudFirestoreTests/Info.plist;
+				INFOPLIST_FILE = iOS_CloudFirestoreTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tagliabue.testCloudFirestoreTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tagliabue.iOS_CloudFirestoreTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -795,13 +843,13 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 77TZG23LJ2;
-				INFOPLIST_FILE = testCloudFirestoreTests/Info.plist;
+				INFOPLIST_FILE = iOS_CloudFirestoreTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tagliabue.testCloudFirestoreTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tagliabue.iOS_CloudFirestoreTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -816,17 +864,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 77TZG23LJ2;
-				INFOPLIST_FILE = testCloudFirestoreUITests/Info.plist;
+				INFOPLIST_FILE = iOS_CloudFirestoreUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tagliabue.testCloudFirestoreUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tagliabue.iOS_CloudFirestoreUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = testCloudFirestore;
+				TEST_TARGET_NAME = iOS_CloudFirestoreTest;
 			};
 			name = Debug;
 		};
@@ -837,17 +885,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 77TZG23LJ2;
-				INFOPLIST_FILE = testCloudFirestoreUITests/Info.plist;
+				INFOPLIST_FILE = iOS_CloudFirestoreUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tagliabue.testCloudFirestoreUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tagliabue.iOS_CloudFirestoreUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = testCloudFirestore;
+				TEST_TARGET_NAME = iOS_CloudFirestoreTest;
 			};
 			name = Release;
 		};

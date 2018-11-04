@@ -1,15 +1,15 @@
 //
-//  testCloudFirestoreTests.swift
-//  testCloudFirestoreTests
+//  iOS_CloudFirestoreTests.swift
+//  iOS_CloudFirestoreTests
 //
 //  Created by Tagliabue, L. on 16/09/2018.
 //  Copyright © 2018 Tagliabue, L. All rights reserved.
 //
 
 import XCTest
-@testable import testCloudFirestore
+@testable import iOS_CloudFirestore
 
-class testCloudFirestoreTests: XCTestCase {
+class iOS_CloudFirestoreTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

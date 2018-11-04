@@ -1,6 +1,6 @@
 //
 //  FireBaseAPIManager.swift
-//  testCloudFirestore
+//  iOS_CloudFirestore
 //
 //  Created by Tagliabue, L. on 16/09/2018.
 //  Copyright © 2018 Tagliabue, L. All rights reserved.
@@ -45,9 +45,8 @@ class FireBaseAPIManager: NetworkManager {
                 return
             }
             
-            if let email = value?.user.email {
-                completion(Result(value:  User(email: email)))
-                return
+            if let user = value?.user, let userConverted = UserConverter().convert(from: user)  {
+                completion(Result(value: userConverted))
             }
             
             completion(Result(error: LoginError.generic))

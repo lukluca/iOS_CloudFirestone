@@ -11,7 +11,7 @@ import Result
 
 typealias Credentials = (email: String, password: String)
 
-class LoginButton: UIButton {
+class LoginButton: RoundBorderedButton {
     
     var credentials: Credentials = (email: "", password: "")
     
@@ -23,7 +23,7 @@ class LoginButton: UIButton {
     
     @objc func touchUpInside(_ sender: UIGestureRecognizer) {
         
-        self.LoginAPIManager?.login(email: self.credentials.email, password: self.credentials.password, completion: { (result) in
+        self.loginAPI?.login(email: self.credentials.email, password: self.credentials.password, completion: { (result) in
             
             switch(result) {
             case .failure(let error):
@@ -34,12 +34,9 @@ class LoginButton: UIButton {
         })
     }
     
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-    }
-    
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.setTitle("Login", for: UIControlState.normal)
+        
     }
 }

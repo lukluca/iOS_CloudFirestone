@@ -9,7 +9,7 @@ pod 'Firebase/Firestore'
 pod 'Firebase/Auth'
 pod 'Result'
 
-  # Pods for testCloudFirestore
+  # Pods for iOS_CloudFirestoreTest
 
   target 'iOS_CloudFirestoreTests' do
     inherit! :search_paths

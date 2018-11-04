@@ -1,6 +1,6 @@
 //
 //  AuthenticationViewController.swift
-//  testCloudFirestore
+//  iOS_CloudFirestore
 //
 //  Created by Tagliabue, L. on 16/09/2018.
 //  Copyright © 2018 Tagliabue, L. All rights reserved.
@@ -12,7 +12,7 @@ class AuthenticationViewController: UIViewController {
 
     @IBOutlet weak var loginButton: LoginButton!
     
-    let authenticationAPI: AuthenticationAPI? = (UIApplication.shared.delegate as? AppDelegate)?.networkManager
+    let authenticationAPI: AuthenticationAPI.Type? = (UIApplication.shared.delegate as? AppDelegate)?.networkManager
 
     override func viewDidLoad() {
         super.viewDidLoad()
