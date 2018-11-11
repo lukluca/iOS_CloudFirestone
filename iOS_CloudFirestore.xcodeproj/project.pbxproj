@@ -10,6 +10,13 @@
 		433B5B1B214EDC48001C91A5 /* LoginError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433B5B1A214EDC48001C91A5 /* LoginError.swift */; };
 		433B5B1D214EE45D001C91A5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 433B5B1C214EE45D001C91A5 /* GoogleService-Info.plist */; };
 		435ED4702159860900222ABA /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435ED46F2159860900222ABA /* LoginButton.swift */; };
+		43AE7D8521986AEB001A6B9B /* PasswordTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AE7D8421986AEB001A6B9B /* PasswordTextFieldDelegate.swift */; };
+		43AE7D8721986AFB001A6B9B /* EmailTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AE7D8621986AFB001A6B9B /* EmailTextFieldDelegate.swift */; };
+		43AE7D892198718A001A6B9B /* ValidationTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AE7D882198718A001A6B9B /* ValidationTextFieldDelegate.swift */; };
+		43AE7D8D21987E8A001A6B9B /* String+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AE7D8C21987E8A001A6B9B /* String+Validation.swift */; };
+		43AE7D90219882CC001A6B9B /* InjectorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AE7D8F219882CC001A6B9B /* InjectorProtocol.swift */; };
+		43AE7D92219883F4001A6B9B /* Injector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AE7D91219883F4001A6B9B /* Injector.swift */; };
+		43AE7D95219888BF001A6B9B /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AE7D94219888BF001A6B9B /* Navigation.swift */; };
 		43C25F90218CE79800A1FB9E /* ConverterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C25F8F218CE79800A1FB9E /* ConverterProtocol.swift */; };
 		43C25F92218CE80D00A1FB9E /* UserConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C25F91218CE80D00A1FB9E /* UserConverter.swift */; };
 		43C25F94218DFC8E00A1FB9E /* NewUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C25F93218DFC8E00A1FB9E /* NewUserViewController.swift */; };
@@ -17,7 +24,7 @@
 		43C25F9A218DFE8500A1FB9E /* NewUserButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C25F99218DFE8500A1FB9E /* NewUserButton.swift */; };
 		43C25F9C218E01C900A1FB9E /* RoundTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C25F9B218E01C900A1FB9E /* RoundTextField.swift */; };
 		43C25FA0218E023A00A1FB9E /* PasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C25F9F218E023A00A1FB9E /* PasswordTextField.swift */; };
-		43C25FA2218E026100A1FB9E /* UsernameTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C25FA1218E026100A1FB9E /* UsernameTextField.swift */; };
+		43C25FA2218E026100A1FB9E /* EmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C25FA1218E026100A1FB9E /* EmailTextField.swift */; };
 		43C43869214EBB7500504B05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C43868214EBB7500504B05 /* AppDelegate.swift */; };
 		43C4386B214EBB7500504B05 /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C4386A214EBB7500504B05 /* AuthenticationViewController.swift */; };
 		43C4386E214EBB7500504B05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43C4386C214EBB7500504B05 /* Main.storyboard */; };
@@ -60,6 +67,13 @@
 		433B5B1A214EDC48001C91A5 /* LoginError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginError.swift; sourceTree = "<group>"; };
 		433B5B1C214EE45D001C91A5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		435ED46F2159860900222ABA /* LoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
+		43AE7D8421986AEB001A6B9B /* PasswordTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextFieldDelegate.swift; sourceTree = "<group>"; };
+		43AE7D8621986AFB001A6B9B /* EmailTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextFieldDelegate.swift; sourceTree = "<group>"; };
+		43AE7D882198718A001A6B9B /* ValidationTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationTextFieldDelegate.swift; sourceTree = "<group>"; };
+		43AE7D8C21987E8A001A6B9B /* String+Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Validation.swift"; sourceTree = "<group>"; };
+		43AE7D8F219882CC001A6B9B /* InjectorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectorProtocol.swift; sourceTree = "<group>"; };
+		43AE7D91219883F4001A6B9B /* Injector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injector.swift; sourceTree = "<group>"; };
+		43AE7D94219888BF001A6B9B /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
 		43C25F8F218CE79800A1FB9E /* ConverterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterProtocol.swift; sourceTree = "<group>"; };
 		43C25F91218CE80D00A1FB9E /* UserConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserConverter.swift; sourceTree = "<group>"; };
 		43C25F93218DFC8E00A1FB9E /* NewUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserViewController.swift; sourceTree = "<group>"; };
@@ -67,7 +81,7 @@
 		43C25F99218DFE8500A1FB9E /* NewUserButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserButton.swift; sourceTree = "<group>"; };
 		43C25F9B218E01C900A1FB9E /* RoundTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundTextField.swift; sourceTree = "<group>"; };
 		43C25F9F218E023A00A1FB9E /* PasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextField.swift; sourceTree = "<group>"; };
-		43C25FA1218E026100A1FB9E /* UsernameTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameTextField.swift; sourceTree = "<group>"; };
+		43C25FA1218E026100A1FB9E /* EmailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextField.swift; sourceTree = "<group>"; };
 		43C43865214EBB7500504B05 /* iOS_CloudFirestore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_CloudFirestore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43C43868214EBB7500504B05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43C4386A214EBB7500504B05 /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
@@ -154,6 +168,48 @@
 			path = Buttons;
 			sourceTree = "<group>";
 		};
+		43AE7D8321986AC0001A6B9B /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				43AE7D8421986AEB001A6B9B /* PasswordTextFieldDelegate.swift */,
+				43AE7D8621986AFB001A6B9B /* EmailTextFieldDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		43AE7D8A219875A1001A6B9B /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				43AE7D882198718A001A6B9B /* ValidationTextFieldDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		43AE7D8B21987E40001A6B9B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				43AE7D8C21987E8A001A6B9B /* String+Validation.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		43AE7D8E219882A9001A6B9B /* Injector */ = {
+			isa = PBXGroup;
+			children = (
+				43AE7D8F219882CC001A6B9B /* InjectorProtocol.swift */,
+				43AE7D91219883F4001A6B9B /* Injector.swift */,
+			);
+			path = Injector;
+			sourceTree = "<group>";
+		};
+		43AE7D93219888A9001A6B9B /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				43AE7D94219888BF001A6B9B /* Navigation.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
 		43C25F8E218CE76F00A1FB9E /* Converter */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,8 +239,9 @@
 		43C25F9E218E022100A1FB9E /* TextFields */ = {
 			isa = PBXGroup;
 			children = (
+				43AE7D8321986AC0001A6B9B /* Delegates */,
 				43C25F9F218E023A00A1FB9E /* PasswordTextField.swift */,
-				43C25FA1218E026100A1FB9E /* UsernameTextField.swift */,
+				43C25FA1218E026100A1FB9E /* EmailTextField.swift */,
 			);
 			path = TextFields;
 			sourceTree = "<group>";
@@ -192,6 +249,7 @@
 		43C25FA3218E030B00A1FB9E /* TextFields */ = {
 			isa = PBXGroup;
 			children = (
+				43AE7D8A219875A1001A6B9B /* Delegates */,
 				43C25F9B218E01C900A1FB9E /* RoundTextField.swift */,
 			);
 			path = TextFields;
@@ -222,6 +280,7 @@
 		43C43867214EBB7500504B05 /* iOS_CloudFirestore */ = {
 			isa = PBXGroup;
 			children = (
+				43AE7D8B21987E40001A6B9B /* Extensions */,
 				43C43897214EC67C00504B05 /* Infrastructure */,
 				435ED46C215985BA00222ABA /* Sections */,
 				433B5B1C214EE45D001C91A5 /* GoogleService-Info.plist */,
@@ -255,6 +314,8 @@
 		43C43897214EC67C00504B05 /* Infrastructure */ = {
 			isa = PBXGroup;
 			children = (
+				43AE7D93219888A9001A6B9B /* Navigation */,
+				43AE7D8E219882A9001A6B9B /* Injector */,
 				43C438A2214ECB7000504B05 /* DataClass */,
 				43C4389F214EC8B400504B05 /* Firebase */,
 				43C43898214EC6A100504B05 /* Network */,
@@ -595,15 +656,22 @@
 				43C25F9A218DFE8500A1FB9E /* NewUserButton.swift in Sources */,
 				435ED4702159860900222ABA /* LoginButton.swift in Sources */,
 				43C4386B214EBB7500504B05 /* AuthenticationViewController.swift in Sources */,
+				43AE7D892198718A001A6B9B /* ValidationTextFieldDelegate.swift in Sources */,
+				43AE7D8721986AFB001A6B9B /* EmailTextFieldDelegate.swift in Sources */,
+				43AE7D95219888BF001A6B9B /* Navigation.swift in Sources */,
 				43C438A8214ED2C700504B05 /* FireBaseAPIManager.swift in Sources */,
+				43AE7D92219883F4001A6B9B /* Injector.swift in Sources */,
 				43C25F94218DFC8E00A1FB9E /* NewUserViewController.swift in Sources */,
+				43AE7D8521986AEB001A6B9B /* PasswordTextFieldDelegate.swift in Sources */,
 				43C25F9C218E01C900A1FB9E /* RoundTextField.swift in Sources */,
 				43C438A4214ECB9900504B05 /* User.swift in Sources */,
 				43C43869214EBB7500504B05 /* AppDelegate.swift in Sources */,
 				43C438A1214EC8F700504B05 /* FirebaseConfig.swift in Sources */,
 				43C25F98218DFDCC00A1FB9E /* RoundBorderedButton.swift in Sources */,
-				43C25FA2218E026100A1FB9E /* UsernameTextField.swift in Sources */,
+				43C25FA2218E026100A1FB9E /* EmailTextField.swift in Sources */,
 				43CF02442163660E0006E43C /* NetworkProtocol.swift in Sources */,
+				43AE7D8D21987E8A001A6B9B /* String+Validation.swift in Sources */,
+				43AE7D90219882CC001A6B9B /* InjectorProtocol.swift in Sources */,
 				433B5B1B214EDC48001C91A5 /* LoginError.swift in Sources */,
 				43C4389E214EC71400504B05 /* NewUserProtocols.swift in Sources */,
 				43C25F92218CE80D00A1FB9E /* UserConverter.swift in Sources */,

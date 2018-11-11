@@ -14,7 +14,5 @@ class RoundTextField: UITextField {
         super.init(coder: aDecoder)
 
         self.layer.cornerRadius = 10
-        //self.layer.borderWidth = 0.5
-        //self.layer.borderColor = UIColor.black.cgColor
     }
 }

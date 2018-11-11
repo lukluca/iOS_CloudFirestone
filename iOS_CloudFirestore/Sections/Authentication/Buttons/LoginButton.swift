@@ -9,13 +9,21 @@
 import UIKit
 import Result
 
-typealias Credentials = (email: String, password: String)
+typealias Credential = (email: String, password: String)
 
 class LoginButton: RoundBorderedButton {
     
-    var credentials: Credentials = (email: "", password: "")
+    var credential: Credential = (email: "", password: "") {
+        didSet {
+            if !credential.email.isEmpty, !credential.password.isEmpty {
+                self.isEnabled = true
+            } else {
+                self.isEnabled = false
+            }
+        }
+    }
     
-    var loginAPI: LoginAPI.Type? {
+    private var loginAPI: LoginAPI.Type = injector.networkManagerType {
         didSet {
             self.addTarget(self, action: #selector(touchUpInside), for: .touchUpInside)
         }
@@ -23,7 +31,7 @@ class LoginButton: RoundBorderedButton {
     
     @objc func touchUpInside(_ sender: UIGestureRecognizer) {
         
-        self.loginAPI?.login(email: self.credentials.email, password: self.credentials.password, completion: { (result) in
+        self.loginAPI.login(email: self.credential.email, password: self.credential.password, completion: { (result) in
             
             switch(result) {
             case .failure(let error):
@@ -37,6 +45,6 @@ class LoginButton: RoundBorderedButton {
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.setTitle("Login", for: UIControlState.normal)
-        
+        self.isEnabled = false
     }
 }

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class UsernameTextField: RoundTextField {
+class EmailTextField: RoundTextField {
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
